@@ -1,6 +1,22 @@
 # Babylon JS Robot simulator example
 
-Robot simulator using Babylon JS
+## setup
+after installing node:
+```sh
+$ npm install
+$ npm run start
+```
+then browsing to http://localhost:8080 should show you the results. any changes made to the code will cause a reload.
+
+## technology
+- Babylon JS
+- typescript
+- webpack
+- node
+- html
+- css
+
+## Robot simulator using Babylon JS
 
 As per FRC code blocks, the robot in this simulation allows for setting left and right wheel power separately. For this example, this can be done via the sliders in the UI, but the power settings could be provided by the Blockly code eventually. To apply the power, press space! You can also change the power while keeping space pressed.
 
