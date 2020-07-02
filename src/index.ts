@@ -132,8 +132,8 @@ function createScene(engine: BABYLON.Engine, canvas: HTMLCanvasElement): BABYLON
 
     var scene = new BABYLON.Scene(engine);
     var gravityVector = new BABYLON.Vector3(0, -9.81, 0);
-    var physicsPlugin = new BABYLON.CannonJSPlugin(true, CANNON);
-	scene.enablePhysics(gravityVector, physicsPlugin);
+    var physicsPlugin = new BABYLON.CannonJSPlugin();
+    scene.enablePhysics(gravityVector, physicsPlugin);
 
     var camera = new BABYLON.ArcRotateCamera("Camera", 3 * Math.PI / 2, Math.PI / 3, 50, BABYLON.Vector3.Zero(), scene);
 	camera.attachControl(canvas, true);
