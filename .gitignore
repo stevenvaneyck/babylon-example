@@ -1,1 +1,8 @@
+# Dependency directories
 node_modules
+
+# Ignore build ts files
+dist
+
+# netlify hosting
+public
